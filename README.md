@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>In Microsoft Azure, create a resource group, a Windows 10 Virtual Machine, and a Virtual Network (Vnet).</p>
 
 <img height="80%" width="80%" alt="Azure Virtual Machine" src="https://github.com/golayjustin/osticket-prereqs/assets/39071760/fd242b4b-8abc-4dad-bb17-6e36fdea9e34">
-&nbsp; 
+&nbsp;
 &nbsp;
 
 <p>Use "Remote Desktop Connection" to connect to the virtual machine.</p>
@@ -116,42 +116,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 &nbsp;
 
 <p>Rename "ost-sampleconfig" to "ost-config".</p>
+<img height="80%" width="80%" alt="Rename to ost-config" src="https://i.imgur.com/0Rof4Nq.png">
+&nbsp;
+&nbsp;
 
 <p>Assign permissions to ost-config by disabling inheritance and giving all permissions to "Everyone".</p>
+<img height="80%" width="80%" alt="Permissions for ost-config" src="https://i.imgur.com/R2lhUus.png">
+&nbsp;
+&nbsp;
 
 <p>Resume set up in the browser by inputing required information.</p>
+<img height="80%" width="80%" alt="Input information into osTicket" src="https://i.imgur.com/7BiU7jq.png">
+&nbsp;
+&nbsp;
 
 <p>Download and install HeidiSQL and create a database called "osTicket".</p>
+<img height="80%" width="80%" alt="HeidiSQL" src="https://i.imgur.com/9ebN03I.png">
+&nbsp;
+&nbsp;
+
+<img height="80%" width="80%" alt="HeidiSQL" src="https://i.imgur.com/9PS1Evn.png">
+&nbsp;
+&nbsp;
 
 <p>Finish set up in the browser by entering MySQL Database as "osTicket". Select "Install now!"</p>
+<img height="80%" width="80%" alt="Finish osTicket setup" src="https://i.imgur.com/ZpEDdWr.png">
+&nbsp;
+&nbsp;
 
 <p>Both the help desk login page and end user web page are functioning.</p>
+<img height="80%" width="80%" alt="osTicket log in page" src="https://i.imgur.com/PdCBl1m.png">
+&nbsp;
+&nbsp;
+
+<img height="80%" width="80%" alt="osTicket end user web page" src="https://i.imgur.com/kCKiyBb.png">
+&nbsp;
+&nbsp;
 
 <p>Before moving on, delete C:\inetpub\wwwroot\osTicket\setup and set the permissions to "Read" on ost-config file.</p>
-
-
-
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img height="80%" width="80%" alt="Set ost-config to read only" src="https://i.imgur.com/8pW1JCB.png">
+&nbsp;
+&nbsp;
